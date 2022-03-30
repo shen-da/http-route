@@ -1,0 +1,20 @@
+{
+  "name": "loner/http-route",
+  "description": "HTTP 请求注解路由器",
+  "type": "library",
+  "require": {
+    "php": "^8.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "shen-da",
+      "email": "747472991@qq.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Loner\\Http\\Route\\": "src/"
+    }
+  }
+}
